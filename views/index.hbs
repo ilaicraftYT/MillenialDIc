@@ -1,0 +1,14 @@
+
+<div class="m-2">
+    {{#each palabras}}
+        <a class="no_style" id="#{{this.palabra}}">
+            <b>{{this.palabra}}</b>
+            <i>{{this.tipo}}.</i>
+            {{this.significado}}
+            {{#if this.ejemplo}}
+                <i>Vg. {{this.ejemplo}}</i>
+            {{/if}}
+        </a>
+        <br />
+    {{/each}}
+</div>

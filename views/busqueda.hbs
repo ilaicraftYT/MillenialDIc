@@ -1,0 +1,18 @@
+<div class="m-2">
+    {{#if busqueda}}
+    <h1 class="text-5xl">Resultado(s) de la busqueda:</h1>
+    {{#each busqueda}}
+        <span>
+            <b>{{this.palabra}}</b>
+            <i>{{this.tipo}}.</i>
+            {{this.significado}}
+            {{#if this.ejemplo}}
+                <i>Vg. {{this.ejemplo}}</i>
+            {{/if}}
+        </span>
+        <br />
+    {{/each}}
+    {{else}}
+    <h1 class="text-3xl">¡Lo sentimos bro! No encontramos ningún resultado para tu busqueda.</h1>
+{{/if}}
+</div>

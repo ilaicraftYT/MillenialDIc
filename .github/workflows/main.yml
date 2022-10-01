@@ -9,5 +9,6 @@ jobs:
       steps:
         - uses: actions/checkout@v2
         - uses: superfly/flyctl-actions/setup-flyctl@master
+        - run: npm install
         - run: npm run css:build
         - run: flyctl deploy --remote-only

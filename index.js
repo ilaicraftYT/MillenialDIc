@@ -28,6 +28,6 @@ app.get("/", (req, res) => {
     res.render("index", { palabras: palabras })
 })
 
-app.listen(8000, () => {
+app.listen(8080, () => {
     console.log("Servidor iniciado en el puerto 8000")
 })

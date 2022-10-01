@@ -5,8 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tailwindcss -i ./public/input.css -o ./public/globals.css --watch & nodemon . --ext 'js,hbs,css,json'",
-    "start": "tailwindcss -i ./public/input.css -o ./public/globals.css --watch && node ."
+    "dev": "npm run css:watch & nodemon . --ext 'js,hbs,css,json'",
+    "start": "npm run css:build && node .",
+
+    "css:build": "tailwindcss -i ./public/input.css -o ./public/globals.css",
+    "css:watch": "tailwindcss -i ./public/input.css -o ./public/globals.css --watch"
   },
   "author": "ilai",
   "license": "MPL-2.0",

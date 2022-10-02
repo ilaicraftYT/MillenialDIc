@@ -23,9 +23,13 @@ app.post("/buscar", (req, res) => {
     res.render("busqueda", { busqueda: filtro })
 })
 
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
     console.log(palabras)
     res.render("index", { palabras: palabras })
+})
+
+app.all("*", (_req, res) => {
+    res.status(400).render("404")
 })
 
 app.listen(8080, () => {

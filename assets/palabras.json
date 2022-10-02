@@ -9,5 +9,16 @@
         "palabra": "lol",
         "tipo": "emot",
         "significado": "Expresion que se emplea comúnmente para expresar una fuerte risa o emoción."
+    },
+    {
+        "palabra": "bro",
+        "tipo": "adj",
+        "significado": "Del inglés, abreviatura de 'brother', es decir, hermano o amigo."
+    },
+    {
+        "palabra": "hater",
+        "tipo": "adj",
+        "significado": "Del inglés, persona que hace comentarios ofensivos e hirientes hacia otra persona debido a causas poco razonables o nulas.",
+        "ejemplo": "Deja de sen tan hater!"
     }
 ]

@@ -18,8 +18,8 @@ app.use(express.urlencoded({ extended: true }));
 
 app.post("/buscar", (req, res) => {
     if(!req.body.busqueda) return res.status(400).send("La busqueda falló. Efe en el chat.")
-    const inicioPalabra = req.body.busqueda.slice(0, 2).toLowerCase()
-    const filtro = palabras.filter(obj => obj.palabra.toLowerCase().startsWith(inicioPalabra) || obj.palabra.toLowerCase() == req.body.busqueda.toLowerCase())
+    const palabra = req.body.busqueda.toLowerCase()
+    const filtro = palabras.filter(obj => obj.palabra.toLowerCase().indexOf(palabra) !== -1)
     res.render("busqueda", { busqueda: filtro })
 })
 

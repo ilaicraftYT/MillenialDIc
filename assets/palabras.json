@@ -7,7 +7,7 @@
     },
     {
         "palabra": "lol",
-        "tipo": "emot",
+        "tipo": "expr",
         "significado": "Expresion que se emplea comúnmente para expresar una fuerte risa o emoción."
     },
     {
@@ -32,5 +32,48 @@
         "tipo": "verb. | sust",
         "significado": "El habito de la masturbacion. | Flojera o pereza.",
         "ejemplo": "Me voy a hacer la paja | No puedo, tengo mucha paja"
+    },
+    {
+        "palabra": "btw",
+        "tipo": "acr.",
+        "significado": "Del inglés, abreviatura de 'By the way', es decir, 'por cierto'.",
+        "ejemplo": "Btw, viste las noticias hoy?"
+    },
+    {
+        "palabra": "afk",
+        "tipo": "acr.",
+        "significado": "Del inglés, abreviatura de 'away from the keyboard', es decir, estar inactivo de una red social por un corto periodo de tiempo debido a algúna razon."
+    },
+    {
+        "palabra": "ASAP",
+        "tipo": "acr. & adj",
+        "significado": "Del inglés, abreviatura de 'As soon as posible', es decir, 'lo mas rapido posible'",
+        "ejemplo": "Debo hacer esto ASAP"
+    },
+    {
+        "palabra": "idk",
+        "tipo": "acr. & adj",
+        "significado": "Del inglés, abreviatura 'I don't know', es decir, 'no lo sé'."
+    },
+    {
+        "palabra": "ik",
+        "tipo": "acr. & adj",
+        "significado": "Antonimó de 'idk'."
+    },
+    {
+        "palabra": "nvm",
+        "tipo": "acr. & verb",
+        "significado":"Del inglés, abreviatura de 'Nevermind', es decir, 'Olvidaló'.",
+        "ejemplo": "Ya sé como, nvm"
+    },
+    {
+        "palabra": "thx",
+        "tipo": "acr. & verb",
+        "significado": "Modificado del inglés, abreviatura de 'thanks', es decir, 'gracias'."
+    },
+    {
+        "palabra": "DIY",
+        "tipo": "acr. & verb",
+        "significado": "Del inglés, abreviatura de 'Do it yourself', es decir, 'hazlo tu mismo'."
     }
 ]

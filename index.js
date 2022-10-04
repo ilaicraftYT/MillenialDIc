@@ -24,8 +24,11 @@ app.post("/buscar", (req, res) => {
 })
 
 app.get("/", (_req, res) => {
-    console.log(palabras)
     res.render("index", { palabras: palabras })
+})
+
+app.get("/abreviaturas", (_req, res) => {
+    res.render("abreviaturas")
 })
 
 app.all("*", (_req, res) => {
